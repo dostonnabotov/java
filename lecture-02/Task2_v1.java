@@ -2,11 +2,11 @@ import java.util.Scanner;
 import java.util.Calendar;
 
 /**
- * Task 2
+ * Task 2 - With external library
  * Detect weekday by input number for March 2023
  * e.g. input = 6, output = "March 6, 2023 is Monday."
  */
-public class Task2 {
+public class Task2_v1 {
   public static void main(String[] args) {
 
     // Create a Scanner object
