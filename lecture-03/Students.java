@@ -1,10 +1,10 @@
-import java.io.Console;
-
 public class Students {
+  // attributes
   String fname;
   int age = 18;
   double height = 1.8;
 
+  // method
   public void doAssignments() {
     System.out.println("Do assignments");
   }
@@ -14,6 +14,7 @@ public class Students {
     fname = name;
   }
 
+  // main function
   public static void main(String[] args) {
     Students john = new Students("John");
     System.out.println(john.fname + "'s age: " + john.age);
